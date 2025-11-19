@@ -22,7 +22,12 @@ Together, these materials document the full workflow—from data origin and prep
 /reports/
     QT-EEG_Experimental_Methods_DS005620.md
     QT-EEG_Phase_Resolved_KQ_Report_DS005620.md
-    QT-EEG_Full_Analysis_and_Interpretation.md   (if included)
+    QT-EEG_Full_Analysis_and_Interpretation.md
+    qt_eeg_subject_1022_full_report.md - Personal report for subject 1022
+    kq_timeseries_hybrid_1022.csv - Detailed metrics collected while analyzing subject 1022
+    KQ_hybrid_with_events_sub-1022.png - Subject 1022 KQ dynamics plot
+    quant_trika_philosophical_description.md - an introduction to Quant-Trika
+    urd_philosophical_foundation.md - Philosophical foundation for Universal Reality Dynamics conjecture
 ```
 
 Each report is self‑contained and written for different levels of analysis depth.
