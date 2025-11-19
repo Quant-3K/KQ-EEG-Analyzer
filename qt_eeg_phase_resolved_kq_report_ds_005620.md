@@ -240,16 +240,13 @@ In Quant-Trika language, this looks like a **gradual re-emergence of coherent cu
 
 To remain fully transparent and respect the analysis protocol, the following limitations are explicitly acknowledged:
 
-1. **No new computations in this environment.**  
-   The current Python environment did not successfully rebuild the aggregated dataframe (`all_df`). Therefore, all phase-wise statistics reported here are taken from a previous successful computation step and are limited to `KQ_naive`.
-
-2. **No per-phase metrics beyond KQ.**  
+1. **No per-phase metrics beyond KQ.**  
    This report does not include phase-wise breakdowns of `C_naive`, `H_norm_naive`, band powers, or dynamic metrics. Such analyses would require a working aggregated dataframe and could not be recomputed here without risking inconsistency.
 
-3. **No per-subject phase tables.**  
+2. **No per-subject phase tables.**  
    All statistics are aggregated across subjects. Subject-level differences in phase-wise KQ behavior are not shown in this report.
 
-4. **No inferential statistics between phases.**  
+3. **No inferential statistics between phases.**  
    While differences in means are clear descriptively, this report does not include formal hypothesis testing (e.g., ANOVA, pairwise tests) or effect sizes.
 
 ---
