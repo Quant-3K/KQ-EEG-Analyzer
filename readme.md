@@ -176,7 +176,7 @@ The result is one of the first fully‑transparent, data‑driven demonstrations
 
 ### **1. Run the EEG Engine**
 
-Modify or execute `QKEEGAnalizerwithEVENTS.py` to recompute metrics.
+Modify or execute `QKEEGAnalizerwithEVENTSComplete.py` to recompute metrics.
 
 ### **2. Load the ZIP Archive**
 
@@ -215,6 +215,7 @@ Spanda Foundation © 2025 Artem Brezgin.
 - The dataset follows OpenNeuro licensing rules.
 - The analysis code is free to use for research and educational purposes.
 - Quant‑Trika theoretical constructs are © Artem Brezgin, Spanda Foundation.
+- artem@quant-trika.org
 
 
 
