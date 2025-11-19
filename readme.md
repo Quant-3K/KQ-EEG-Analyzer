@@ -6,7 +6,7 @@ The repository includes:
 
 - **Three detailed analytical reports** (Methods, Phase‑resolved Results, and Full Experimental Interpretation)
 - **A ZIP archive** with all computed window‑level metrics (`KQ`, `C`, `H_norm`, spectral features, derivatives, etc.)
-- **The original analysis engine** (`QKEEGAnalizerwithEVENTS.py`) used to compute the metrics
+- **The original analysis engine** (`QKEEGAnalizerwithEVENTSComplete.py`) used to compute the metrics
 
 Together, these materials document the full workflow—from data origin and preprocessing to metric extraction, phase assignment, coherence computation, and interpretation.
 
@@ -17,7 +17,7 @@ Together, these materials document the full workflow—from data origin and prep
 ```
 /README.md                         ← You are here
 /ResultsKQEEGDS005620.zip          ← All computed EEG window metrics
-/QKEEGAnalizerwithEVENTS.py        ← Python script used to generate KQ, C, H_norm, etc.
+/QKEEGAnalizerwithEVENTSComplete.py        ← Python script used to generate KQ, C, H_norm, etc.
 
 /reports/
     QT-EEG_Experimental_Methods_DS005620.md
@@ -39,7 +39,6 @@ This repository implements the canonical Quant‑Trika coherence formula:
 KQ = C * (1 − H_norm)
 ```
 
-exactly as specified in QTUnified2.
 
 - `C` — structural synchrony (mean cross‑channel coherence)
 - `H_norm` — normalized spectral entropy
@@ -137,7 +136,7 @@ This archive is the raw material for all statistical analysis.
 
 ## 🧠 **5. EEG Analysis Engine**
 
-**File:** `QKEEGAnalizerwithEVENTS.py`
+**File:** `QKEEGAnalizerwithEVENTSComplete.py`
 
 This script computes:
 
