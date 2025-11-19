@@ -1,6 +1,6 @@
 # Quant‑Trika EEG Coherence Analysis — DS005620
 
-This repository contains a complete, end‑to‑end analysis of EEG coherence using the **Quant‑Trika** framework, based on the publicly available human EEG dataset **DS005620** from OpenNeuro. The goal of this repository is to provide a fully transparent, reproducible, and methodologically rigorous implementation of the Quant‑Trika coherence metric applied to real EEG data.
+This repository contains a complete, end‑to‑end analysis of EEG coherence using the **Quant‑Trika** framework, based on the publicly available human EEG dataset **DS005620** from OpenNeuro - https://github.com/OpenNeuroDatasets . The goal of this repository is to provide a fully transparent, reproducible, and methodologically rigorous implementation of the Quant‑Trika coherence metric applied to real EEG data.
 
 The repository includes:
 
